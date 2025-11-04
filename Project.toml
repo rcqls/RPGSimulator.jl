@@ -1,0 +1,7 @@
+name = "RPGSimulator"
+uuid = "940e48fe-9232-4331-8d03-3776d4f172d4"
+authors = ["MaximusDiplodocus <desjobertmaxime1@gmail.com>"]
+version = "0.0.1"
+
+[compat]
+julia = "1.10"
