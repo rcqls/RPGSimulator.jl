@@ -1,5 +1,5 @@
 # Fonction de calcul des dégâts
-function calculer_degats(attaque_base::Int, defense::Int; frac_ecart_type=0.12, chance_critique=0.10, multiplicateur_critique=1.6)
+function degats(attaque_base::Int, defense::Int; frac_ecart_type=0.12, chance_critique=0.10, multiplicateur_critique=1.6)
     # attaque_base : puissance d'attaque du personnage attaquant
     # defense : valeur de défense du personnage défenseur
     # frac_ecart_type : fraction utilisée pour calculer la variabilité aléatoire
