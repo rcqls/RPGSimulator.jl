@@ -84,10 +84,10 @@ end
 
 # === RÉCAPITULATIF ===
 println("\n=== RÉCAPITULATIF DES TESTS ===")
-println("| Test                          | Statut |")
-println("|-------------------------------|--------|")
+println("| Test                             | Statut |")
+println("|----------------------------------|--------|")
 for (k,v) in results
-    println("| $(lpad(k,30)) | $(v ? "PASS" : "FAIL") |")
+    println("| $(lpad(k,30))   | $(v ? "PASS" : "FAIL") |")
 end
 
 println("\n✅ Tous les tests se sont exécutés !")
