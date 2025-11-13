@@ -10,6 +10,8 @@ include("combat.jl")
 include("simulation.jl")
 
 export simulate, combat, attaquer, use_skill, afficher_stats,
-       Stats, Role, Archer, Mage, Chevalier, Gobelin
+       compute_damage,
+       Stats, Role, Archer, Mage, Chevalier, Gobelin,
+       Skill, Fireball, PowerStrike, Heal, AOE
 
 end
