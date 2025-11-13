@@ -9,7 +9,7 @@ include("skills.jl")
 include("combat.jl")
 include("simulation.jl")
 
-export simulate, combat, attaquer, use_skill, afficher_stats,
+export simulation, combat, attaquer, use_skill, afficher_stats,
        Stats, Role, Archer, Mage, Chevalier, Gobelin
 
 end
